@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+
+	"name": "YouTube Tooltipise Titles",
+	"description": "Add title tooltips to video titles on YouTube so you can read them even after ellipsis truncation",
+	"version": "0.0.1",
+	
+	"content_scripts": [
+		{
+			"matches": ["*://*.youtube.com/*"],
+			"js": ["tooltipise.js"]
+		}
+	],
+	
+	"permissions": [
+		"*://*.youtube.com/*"
+	]
+}
