@@ -6,5 +6,9 @@ I remember YouTube having `title` tooltips on video titles that would allow you 
 This Google Chrome extension reintroduces `title` tooltips on video titles.
 
 
+## Installation
+Download the .crx file from the [release](https://github.com/teddywing/chrome-youtube-tooltipise-titles/releases) page and open the file in Chrome.
+
+
 ## License
 Licensed under the MIT License. See the included LICENSE file.
