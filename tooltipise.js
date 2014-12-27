@@ -11,7 +11,10 @@
 	tooltipise_titles();
 	
 	// Refresh titles when more videos are loaded
-	document.querySelector('.load-more-text').addEventListener('click', function() {
-		window.setTimeout(tooltipise_titles, 3000);
-	});
+	var load_more_button = document.querySelector('.load-more-text');
+	if (load_more_button) {
+		load_more_button.addEventListener('click', function() {
+			window.setTimeout(tooltipise_titles, 3000);
+		});
+	}
 })()
